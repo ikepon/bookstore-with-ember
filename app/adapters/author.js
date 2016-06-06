@@ -15,4 +15,5 @@ export default ApplicationAdapter.extend({
     } else {
       return false;
     }
-  }});
+  }
+});
