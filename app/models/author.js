@@ -1,3 +1,4 @@
+import Ember from 'ember';
 import Publisher from './publisher';
 import { hasMany } from 'ember-data/relationships';
 
