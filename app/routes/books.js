@@ -13,6 +13,7 @@ export default Ember.Route.extend({
 
   actions: {
     showAll() {
+      const total = this.controllerFor('books').get('total');
       this.transitionTo({ queryParams: { limit: total }});
     },
 

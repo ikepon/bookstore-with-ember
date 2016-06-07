@@ -4,4 +4,6 @@
   {{/each}}
 </ul>
 
-<button {{action 'showAll'}}>Show All</button>
+{{#if showAll}}
+  <button {{action 'showAll'}}>Show All</button>
+{{/if}}
